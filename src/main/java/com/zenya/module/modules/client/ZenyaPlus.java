@@ -28,7 +28,7 @@ public final class ZenyaPlus extends Module {
 	private static Color accentColor = new Color(59, 130, 246, 255);
 
 	public ZenyaPlus() {
-		super("Frost+", Category.CLIENT);
+		super("SAGING+", Category.CLIENT);
 		setDescription("Global Frost client appearance settings.");
 		addSetting(animations);
 		addSetting(soundAnimations);
