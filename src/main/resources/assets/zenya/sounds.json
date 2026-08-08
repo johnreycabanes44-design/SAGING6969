@@ -1,0 +1,39 @@
+{
+  "spawner_found": {
+    "sounds": [
+      "zenya:spawner_found"
+    ]
+  },
+  "gui_open": {
+    "sounds": [
+      {
+        "name": "zenya:gui_open",
+        "stream": false
+      }
+    ]
+  },
+  "gui_close": {
+    "sounds": [
+      {
+        "name": "zenya:gui_close",
+        "stream": false
+      }
+    ]
+  },
+  "module_enable": {
+    "sounds": [
+      {
+        "name": "zenya:module_enable",
+        "stream": false
+      }
+    ]
+  },
+  "module_disable": {
+    "sounds": [
+      {
+        "name": "zenya:module_disable",
+        "stream": false
+      }
+    ]
+  }
+}

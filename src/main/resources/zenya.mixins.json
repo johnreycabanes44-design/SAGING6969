@@ -1,0 +1,37 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.zenya.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"WorldRendererMixin",
+		"BlockRenderManagerMixin",
+		"WorldMixin",
+		"WeatherRenderingMixin",
+		"ClientConnectionMixin",
+		"ClientWorldMixin",
+		"AbstractClientPlayerEntityMixin",
+		"CameraMixin",
+		"EntityMixin",
+		"EntityRendererMixin",
+		"LightningEntityRendererMixin",
+		"LivingEntityMixin",
+		"PlayerEntityRendererMixin",
+		"PlayerListEntryMixin",
+		"GameRendererAccessor",
+		"HandledScreenAccessor",
+		"InputAccessor",
+		"MinecraftClientAccessor",
+		"MinecraftClientAttackMixin",
+		"KeyboardInputMixin",
+		"MouseMixin",
+		"ClientPlayerEntityMixin",
+		"LabelCommandRendererMixin",
+		"ChatHudMixin",
+		"InGameOverlayRendererMixin",
+		"InGameHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}
