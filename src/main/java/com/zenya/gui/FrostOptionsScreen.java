@@ -16,13 +16,13 @@ import org.lwjgl.glfw.GLFW;
  * the captured input goes to the bind instead of the widgets underneath, which is why
  * both handlers return true without calling super.
  */
-public class FrostOptionsScreen extends Screen {
+public class SAGINGOptionsScreen extends Screen {
 	private final Screen parent;
 	private boolean awaitingBind;
 	private Button bindButton;
 
 	public FrostOptionsScreen(Screen parent) {
-		super(Component.literal("Frost Client Settings"));
+		super(Component.literal("SAGING Client Settings"));
 		this.parent = parent;
 	}
 
